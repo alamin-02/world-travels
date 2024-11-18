@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* shared style   */
+:root {
+    --header-color: #131318;
+    --primary-color: #FF5400;
+    --description-color: #5A5A5D;
+    --img-text: #FFFFFF;
+    --nav-color: #424247;
+}
+
+
+
+
+
+
+
+
+
+/* shared style  end  */
+/* header style  */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+
+
+/* logo style  */
+
+.logo-container>a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: var(--header-color);
+}
+
+.logo-container>a:hover {
+    text-decoration: underline 2px solid #FF5400;
+}
+
+h1.logo-text {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+span.logo-travel-text {
+    color: var(--primary-color);
+}
+
+
+
+
+
+/* nav style  */
+ul.nav-container-li {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+ul.nav-container-li>li>a {
+    text-decoration: none;
+    color: var(--nav-color);
+    font-size: 18px;
+}
+
+ul.nav-container-li>li>a:active {
+    color: var(--primary-color);
+}
+ul.nav-container-li>li>a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+/* header style  */
+.header-container-heading{
+   background-image: url('../image/header-background.png');
+   background-repeat: no-repeat;
+   top: auto;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   margin-top: 60px;
+   border-radius: 10px;
+}
+.header-titel-container {
+    text-align: center;
+    width: 729px;
+    margin: 0 auto;
+    padding: 175px 100px 30px 100px;
+}
+h1.header-title{
+    color: var(--img-text);
+    font-size: 62px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+p.header-description{
+    color: var(--img-text);
+    font-size: 16px;
+    font-weight: 300;
+}
+.header-container-input {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 175px;
+}
+.header-input {
+    padding: 20px 30px;
+    min-width: 77px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    width: 230px;
+}
+.header-input:focus{
+    border: none;
+}
+.header-input-felt {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
+   
+}
+select#when-select-option {
+    cursor: pointer;
+}
