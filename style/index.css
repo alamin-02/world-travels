@@ -7,10 +7,12 @@
 html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     max-width: 1400px;
     margin: 0 auto;
 }
+
 /* shared style   */
 :root {
     --header-color: #131318;
@@ -19,7 +21,16 @@ body{
     --img-text: #FFFFFF;
     --nav-color: #424247;
 }
-
+.primary-btn {
+    padding: 20px 40px;
+    min-width: 77px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    /* width: 230px; */
+    background-color: var(--primary-color);
+    color: var(--img-text);
+}
 
 
 
@@ -82,38 +93,44 @@ ul.nav-container-li>li>a {
 ul.nav-container-li>li>a:active {
     color: var(--primary-color);
 }
+
 ul.nav-container-li>li>a:hover {
     color: var(--primary-color);
     text-decoration: underline;
 }
+
 /* header style  */
-.header-container-heading{
-   background-image: url('../image/header-background.png');
-   background-repeat: no-repeat;
-   top: auto;
-   width: 100%;
-   background-size: cover;
-   background-position: center;
-   margin-top: 60px;
-   border-radius: 10px;
+.header-container-heading {
+    background-image: url('../image/header-background.png');
+    background-repeat: no-repeat;
+    top: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    border-radius: 10px;
 }
+
 .header-titel-container {
     text-align: center;
     width: 729px;
     margin: 0 auto;
     padding: 175px 100px 30px 100px;
 }
-h1.header-title{
+
+h1.header-title {
     color: var(--img-text);
     font-size: 62px;
     font-weight: 800;
     margin-bottom: 20px;
 }
-p.header-description{
+
+p.header-description {
     color: var(--img-text);
     font-size: 16px;
     font-weight: 300;
 }
+
 .header-container-input {
     margin: 0 auto;
     text-align: center;
@@ -121,6 +138,7 @@ p.header-description{
     margin-bottom: 50px;
     padding-bottom: 175px;
 }
+
 .header-input {
     padding: 20px 30px;
     min-width: 77px;
@@ -129,16 +147,33 @@ p.header-description{
     font-size: 20px;
     width: 230px;
 }
-.header-input:focus{
+
+.header-input:focus {
     border: none;
 }
+
 .header-input-felt {
     display: flex;
     margin: 0 auto;
     justify-content: center;
     gap: 30px;
-   
+
 }
+
 select#when-select-option {
     cursor: pointer;
+    background-image: url('../image/icon/aro-icon.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40px;
+    /* width: 100%; */
+    appearance: none;
+}
+svg.button-search-icon {
+    width: 16px;
+    padding-right: 5px;
+    filter: invert();
+}
+.header-input-parent>button {
+    width: 230px;
 }
