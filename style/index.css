@@ -157,7 +157,14 @@ p.header-description {
     margin: 0 auto;
     justify-content: center;
     gap: 30px;
-
+    padding: 50px 30px;
+    /* background: white; */
+    width: 1060px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+.header-input-felt:hover{
+    backdrop-filter: blur(10px);
 }
 
 select#when-select-option {
