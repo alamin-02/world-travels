@@ -21,6 +21,7 @@ body {
     --img-text: #FFFFFF;
     --nav-color: #424247;
 }
+
 .primary-btn {
     padding: 20px 40px;
     min-width: 77px;
@@ -163,8 +164,10 @@ p.header-description {
     border-radius: 10px;
     backdrop-filter: blur(5px);
 }
-.header-input-felt:hover{
+
+.header-input-felt:hover {
     backdrop-filter: blur(10px);
+
 }
 
 select#when-select-option {
@@ -176,11 +179,13 @@ select#when-select-option {
     /* width: 100%; */
     appearance: none;
 }
+
 svg.button-search-icon {
     width: 16px;
     padding-right: 5px;
     filter: invert();
 }
+
 .header-input-parent>button {
     width: 230px;
 }
