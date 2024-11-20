@@ -83,6 +83,9 @@ span.logo-travel-text {
 
 
 /* nav style  */
+.nav-icon-container {
+    display: none;
+}
 ul.nav-container-li {
     list-style: none;
     display: flex;
@@ -214,13 +217,14 @@ h2.our-popular-tours {
 
 p.our-popular-tours-description {
     color: var(--description-color);
-    line-height: 25px;
+    line-height: 24px;
+    font-weight: 300;
 }
 
 ul.our-popular-tours-feature {
     width: 480px;
     line-height: 25px;
-    font-weight: 350;
+    font-weight: 300;
 }
 
 ul.our-popular-tours-feature>li {
@@ -234,4 +238,125 @@ button.primary-btn.our-popular-tours-button {
 
 img.trues-container-img {
     width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 1400px;
+        margin: 0 auto;
+        max-width: 290px;
+    }
+    /* header style responsive  */
+    .header-container{
+        margin:20px auto;
+        justify-content: space-between;
+    }
+    .logo-container>a{
+        gap: 5px;
+    }
+    h1.logo-text {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    img.logo-img {
+        width: 40px;
+    }
+    nav.nav-container {
+        display: none;
+    }
+    .nav-icon-container {
+        display: block;
+    }
+    .header-titel-container {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 50px;
+        margin-bottom: 40px;
+
+    }
+    .header-container-heading {
+        background-image: linear-gradient(181deg, #454545 0%, transparent), url(../image/header-background.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: 60px;
+        border-radius: 10px;
+        background-size: 500%;
+    }
+    p.header-description {
+        color: var(--img-text);
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    h1.header-title {
+        color: var(--img-text);
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .header-input {
+        padding: 20px 30px;
+        min-width: 100%;
+        border-radius: 5px;
+        border: none;
+        width: 100%;
+    }
+    .header-input-felt {
+        display: flex;
+        margin: 0 auto;
+        gap: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 10px;
+        backdrop-filter: contrast(0.7);
+        flex-direction: column;
+    }
+    .header-container-input{
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .header-input-parent{
+        width: 235px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    /* header responsive end */
+    /* main responsive */
+    /* our pupilar responsive  */
+    .our-popular-tours {
+        /* margin-top: 100px; */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .trues-container{
+        width: 100%;
+        margin-top: 20px;
+    }
+    h2.our-popular-tours {
+        font-size: 32px;
+
+    }
+    ul.our-popular-tours-feature {
+        width: 100%;
+        line-height: 21px;
+        /* font-weight: 350; */
+    }
 }
