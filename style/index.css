@@ -188,3 +188,38 @@ svg.button-search-icon {
 .header-input-parent>button {
     width: 230px;
 }
+/* header style end */
+/* our popular tours style */
+.our-popular-tours {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trues-container {
+    width: 620px;
+}
+h2.our-popular-tours {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+p.our-popular-tours-description{
+    color: var(--description-color);
+    line-height: 25px;
+}
+ul.our-popular-tours-feature {
+    width: 480px;
+    line-height: 25px;
+    font-weight: 350;
+}
+ul.our-popular-tours-feature>li {
+    margin: 20px;
+    color: var(--description-color);
+}
+button.primary-btn.our-popular-tours-button {
+    margin-top: 35px;
+}
+img.trues-container-img {
+    width: 100%;
+}
