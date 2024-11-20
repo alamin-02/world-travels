@@ -174,7 +174,7 @@ select#when-select-option {
     cursor: pointer;
     background-image: url('../image/icon/aro-icon.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 165px;
     background-size: 40px;
     /* width: 100%; */
     appearance: none;
