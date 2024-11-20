@@ -259,9 +259,14 @@ img.trues-container-img {
 @media only screen and (max-width: 600px) {
     body {
         margin: 0 auto;
-        max-width: 300px;
+        /* max-width: 300px; */
+        padding: 5px;
+        margin: 0 auto;
     }
     /* header style responsive  */
+    header#home {
+        margin-bottom: 0px;
+    }
     .header-container{
         margin:20px auto;
         justify-content: space-between;
@@ -270,11 +275,11 @@ img.trues-container-img {
         gap: 5px;
     }
     h1.logo-text {
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 700;
     }
     img.logo-img {
-        width: 40px;
+        width: 45px;
     }
     nav.nav-container {
         display: none;
@@ -284,7 +289,7 @@ img.trues-container-img {
     }
     .header-titel-container {
         text-align: center;
-        width: 100%;
+        width: 280px;
         margin: 0 auto;
         padding: 0;
         padding-top: 50px;
@@ -295,9 +300,9 @@ img.trues-container-img {
         background-image: linear-gradient(181deg, #454545 0%, transparent), url(../image/header-background.png);
         background-repeat: no-repeat;
         width: 100%;
-        margin-top: 60px;
+        margin-top: 20px;
         border-radius: 10px;
-        background-size: 500%;
+        /* background-size: 500%; */
     }
     p.header-description {
         color: var(--img-text);
@@ -343,7 +348,7 @@ img.trues-container-img {
     .our-popular-tours {
         /* margin-top: 100px; */
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .trues-container{
         width: 100%;
