@@ -102,7 +102,7 @@ ul.nav-container-li>li>a:hover {
 
 /* header style  */
 .header-container-heading {
-    background-image: url('../image/header-background.png');
+    background-image: linear-gradient(181deg, #454545 0%, transparent), url(../image/header-background.png);
     background-repeat: no-repeat;
     top: auto;
     width: 100%;
@@ -162,12 +162,11 @@ p.header-description {
     /* background: white; */
     width: 1060px;
     border-radius: 10px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: contrast(0.7);
 }
 
 .header-input-felt:hover {
-    backdrop-filter: blur(10px);
-
+    backdrop-filter: contrast(0.4);
 }
 
 select#when-select-option {
