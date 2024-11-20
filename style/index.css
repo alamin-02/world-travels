@@ -258,9 +258,8 @@ img.trues-container-img {
 
 @media only screen and (max-width: 600px) {
     body {
-        max-width: 1400px;
         margin: 0 auto;
-        max-width: 290px;
+        max-width: 300px;
     }
     /* header style responsive  */
     .header-container{
