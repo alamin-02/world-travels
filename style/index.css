@@ -209,13 +209,13 @@ svg.button-search-icon {
     width: 620px;
 }
 
-h2.our-popular-tours {
-    font-size: 50px;
+h2.our-popular-tours, h2.hero-section-header {
+    font-size: 42px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-p.our-popular-tours-description {
+p.our-popular-tours-description, p.hero-sections-description {
     color: var(--description-color);
     line-height: 24px;
     font-weight: 300;
@@ -239,9 +239,13 @@ button.primary-btn.our-popular-tours-button {
 img.trues-container-img {
     width: 100%;
 }
-
-
-
+/* our popular tours style end */
+/* hero section style  */
+.hero-sections {
+    text-align: center;
+    width: 600px;
+    margin: 140px auto;
+}
 
 
 
@@ -346,7 +350,7 @@ img.trues-container-img {
     }
     /* header responsive end */
     /* main responsive */
-    /* our pupilar responsive  */
+    /* our pupilar responsive -----   ----  and hero section responsive  */
     .our-popular-tours {
         /* margin-top: 100px; */
         display: flex;
@@ -356,13 +360,18 @@ img.trues-container-img {
         width: 100%;
         margin-top: 20px;
     }
-    h2.our-popular-tours {
+    h2.our-popular-tours, h2.hero-section-header {
         font-size: 32px;
 
     }
-    ul.our-popular-tours-feature {
+    ul.our-popular-tours-feature, p.hero-sections-description {
         width: 100%;
         line-height: 21px;
         /* font-weight: 350; */
     }
+    .hero-sections{
+        width: 100%;
+        margin: 30px auto;
+    }
+    /* our pupilar responsive -----   ----  and hero section responsive end */
 }
