@@ -251,13 +251,16 @@ img.trues-container-img {
 /* destination-section style  */
 h2.destination-text {
     position: relative;
-    top: 190px;
-    left: 255px;
-    width: 200px;
+    top: 200px;
+    /* left: 255px; */
+    width: 147px;
     /* right: auto; */
-    color: white;
+    color: var(--img-text);
     font-weight: 700;
     font-size: 32px;
+    /* display: flex; */
+    margin: 0 auto;
+    text-align: center;
 }
 section.destination-section-1 {
     display: grid;
@@ -283,7 +286,7 @@ img.indonesia-img , img.maldives-img{
 }
 .destination-item>a:hover {
     text-decoration: underline 3px;
-    color: black;
+    color: var(--header-color);
 }
 
 
@@ -414,7 +417,7 @@ img.indonesia-img , img.maldives-img{
 
     section.destination-section-1 {
         display: grid;
-        grid-template-columns: revert;
+        grid-template-columns: none;
         gap: 0;
         cursor: pointer;
     }
@@ -423,14 +426,15 @@ img.indonesia-img , img.maldives-img{
     }
     h2.destination-text {
         position: relative;
-        top: 93px;
-        left: 77px;
+        top: 110px;
+        /* left: 77px; */
         /* right: auto; */
-        color: white;
+        color: var(--img-text);
         font-weight: 700;
         font-size: 30px;
-        /* margin: 0 auto; */
+        margin: 0 auto;
         /* width: 0px; */
+        text-align: center;
     }
 
 }
