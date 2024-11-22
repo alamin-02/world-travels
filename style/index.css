@@ -411,4 +411,26 @@ img.indonesia-img , img.maldives-img{
         margin: 30px auto;
     }
     /* our pupilar responsive -----   ----  and hero section responsive end */
+
+    section.destination-section-1 {
+        display: grid;
+        grid-template-columns: revert;
+        gap: 0;
+        cursor: pointer;
+    }
+    img.indonesia-img, img.maldives-img {
+        width: 100%;
+    }
+    h2.destination-text {
+        position: relative;
+        top: 93px;
+        left: 77px;
+        /* right: auto; */
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        /* margin: 0 auto; */
+        /* width: 0px; */
+    }
+
 }
