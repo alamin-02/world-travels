@@ -487,6 +487,11 @@ section.destination-section-3 {
     section.destination-section-2>div{
         margin: 0;
     }
+    .destination-img {
+        max-width: 105%;
+        height: auto;
+        width: 115%;
+    }
     div#destination-item-north-america>a>div>h2 {
         top: 140px;
     }
@@ -514,5 +519,8 @@ section.destination-section-3 {
     div#destination-item-bangladesh>a>div>h2 {
         left: auto;
         right: auto;
+    }
+    div#destination-item-north-america>a>div>img {
+        width: 100%;
     }
 }
