@@ -251,8 +251,8 @@ img.trues-container-img {
 /* destination-section style  */
 h2.destination-text {
     position: relative;
-    top: 200px;
-    /* left: 255px; */
+    top: 192px;
+    left: 25px;
     width: 147px;
     /* right: auto; */
     color: var(--img-text);
@@ -270,16 +270,28 @@ section.destination-section-1 {
     justify-content: space-between;
     gap: 20px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+    justify-content: center;
+}
+section.destination-section-2{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    justify-self: center;
+    margin: 30px;
 }
 .destination-item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-img.indonesia-img , img.maldives-img{
-    max-width: 100%;
+/* img.indonesia-img , img.maldives-img, .indonesia-img{ */
+.destination-img{
+
+    max-width: 115%;
     height: auto;
-    width: 650px;
+    width: 115%;
 }
 .destination-item>a {
     text-decoration: none;
@@ -288,10 +300,39 @@ img.indonesia-img , img.maldives-img{
     text-decoration: underline 3px;
     color: var(--header-color);
 }
-
-
-
-
+/* div#destination-item-north-america {
+    position: relative;
+    top: -20px;
+} */
+section.destination-section-2>div>a>div>img {
+    width: 100%;
+    max-width: 100%;
+}
+section.destination-section-2>div>a>div>h2 {
+        position: relative;
+        top: 170px;
+        left: 0px;
+        width: 100%;
+        /* right: auto; */
+        color: var(--img-text);
+        font-weight: 700;
+        font-size: 32px;
+        /* display: flex; */
+        margin: 0 auto;
+        text-align: center;
+    
+}
+/* div#destination-item-kashmir {
+    margin-left: -105px;
+} */
+section.destination-section-2>div {
+    margin-left: 55px;
+}
+section.destination-section-3 {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
 
 
 
@@ -421,12 +462,13 @@ img.indonesia-img , img.maldives-img{
         gap: 0;
         cursor: pointer;
     }
-    img.indonesia-img, img.maldives-img {
+ 
+    img.indonesia-img, img.maldives-img, .indonesia-img {
         width: 100%;
     }
     h2.destination-text {
         position: relative;
-        top: 110px;
+        top: 140px;
         /* left: 77px; */
         /* right: auto; */
         color: var(--img-text);
@@ -436,5 +478,41 @@ img.indonesia-img , img.maldives-img{
         /* width: 0px; */
         text-align: center;
     }
-
+    section.destination-section-2{
+        margin: 0;
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+    }
+    section.destination-section-2>div{
+        margin: 0;
+    }
+    div#destination-item-north-america>a>div>h2 {
+        top: 140px;
+    }
+    div#destination-item-srilanka>a>div>h2 {
+        top: 170px;
+    }
+    section.destination-section-2>div>a>div>img {
+        width: 105%;
+        max-width: 105%;
+    }
+    section.destination-section-3>div>a>div>img {
+        width: 100%;
+    }
+    div#destination-item-bandarban>a>div>h2 {
+        top: 105px;
+        right: auto;
+        left: auto;
+    }
+    section.destination-section-3 {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+    }
+    div#destination-item-bangladesh>a>div>h2 {
+        left: auto;
+        right: auto;
+    }
 }
