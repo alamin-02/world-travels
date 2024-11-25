@@ -32,8 +32,11 @@ body {
     background-color: var(--primary-color);
     color: var(--img-text);
     cursor: pointer;
+    translate: transform 0.5s ease;
 }
-
+.primary-btn:active{
+    transform: scale(0.98);
+}
 
 
 
@@ -333,6 +336,46 @@ section.destination-section-3 {
     justify-content: center;
     gap: 120px;
 }
+/* feature style sheet  */
+section.feature-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.feature-card {
+    padding: 50px;
+    width: 500px;
+}
+.feature-card {
+    margin: 40px;
+    padding: 40px;
+    width: 500px;
+    background-color: rgba(29, 206, 246, 5%);
+    border: solid 1px #29CEF6;
+    border-radius: 20px;
+}
+img.feature-img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+p.feature-description {
+    color: var(--description-color);
+    margin: 20px 0px 20px 0px;
+}
+.feature-card.best-price-guarantee {
+    flex: 0 0 35%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
 
 
 
