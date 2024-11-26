@@ -793,6 +793,8 @@ section.tore-packge-container-section-2 .tore-text-info {
         padding: 0;
         justify-content: normal;
         margin-bottom: 10px;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     span.tore-packge-price {
@@ -827,5 +829,8 @@ section.tore-packge-container-section-2 .tore-text-info {
         background-size: cover;
         background-position: center;
         border-radius: 20px;
+    }
+    ul.tore-infor-unorder-list li:first-child{
+        flex: 0 0 100%;
     }
 }
