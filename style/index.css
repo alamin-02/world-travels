@@ -277,7 +277,8 @@ h2.destination-text {
     background-image: url('../image/maldives.png');
 
 }
-#destination-item-indonesia{
+
+#destination-item-indonesia {
     background-image: url('../image/indonesia.png');
 
 }
@@ -290,6 +291,7 @@ section.destination-section-1 {
     max-width: 1300px;
     margin: 20px auto;
 }
+
 section.destination-section-1>div>a>div>h2 {
     color: var(--img-text);
     font-weight: 700;
@@ -305,13 +307,15 @@ section.destination-section-2 {
     gap: 20px;
 }
 
-#destination-item-srilanka{
+#destination-item-srilanka {
     background-image: url('../image/srilanka.png');
 }
-#destination-item-north-america{
+
+#destination-item-north-america {
     background-image: url('../image/north-america.png');
 }
-#destination-item-kashmir{
+
+#destination-item-kashmir {
     background-image: url('../image/kashmir.png');
 }
 
@@ -345,6 +349,7 @@ section.destination-section-2>div>a>div>h2 {
     width: 100%;
 
 }
+
 div#destination-item-north-america>a>div>h2 {
     width: 230px;
 }
@@ -357,13 +362,15 @@ section.destination-section-3 {
     margin: 20px auto;
 }
 
-div#destination-item-bangladesh{
+div#destination-item-bangladesh {
     background-image: url('../image/bangladesh.png');
 }
+
 div#destination-item-bandarban {
     background-image: url('../image/bandarban.png');
     flex: 0 0 60%;
 }
+
 section.destination-section-3>div>a>div>h2 {
     padding: 140px 170px;
     text-align: center;
@@ -692,25 +699,29 @@ section.tore-packge-container-section-2 .tore-text-info {
         gap: 0;
         cursor: pointer;
     }
+
     section.destination-section-1>div>a>div>h2 {
         color: var(--img-text);
         font-weight: 700;
         font-size: 32px;
         padding: 0;
     }
+
     .destination-card {
         padding: 96px 130px;
     }
+
     section.destination-section-2>div>a>div {
         padding: 90px 85px;
     }
+
     img.indonesia-img,
     img.maldives-img,
     .indonesia-img {
         width: 100%;
-    }section.destination-section-1
+    }
 
-    h2.destination-text {
+    section.destination-section-1 h2.destination-text {
         color: var(--img-text);
         font-weight: 700;
         font-size: 30px;
@@ -725,13 +736,20 @@ section.tore-packge-container-section-2 .tore-text-info {
         flex-direction: column;
     }
 
+    section#section {
+        max-width: 394px;
+        margin: 0 auto;
+    }
+
     section.destination-section-2>div {
         margin: 0;
     }
 
     div#destination-item-north-america>a>div>h2 {
-        /* top: 140px; */text-align: center;
+        /* top: 140px; */
+        text-align: center;
     }
+
     section.destination-section-2>div>a>div>h2 {
         padding: 0;
         width: 100%;
@@ -746,6 +764,7 @@ section.tore-packge-container-section-2 .tore-text-info {
     section.destination-section-3>div>a>div>img {
         width: 100%;
     }
+
     section.destination-section-3 div:last-child {
         background-size: cover;
     }
@@ -756,15 +775,18 @@ section.tore-packge-container-section-2 .tore-text-info {
         gap: 20px;
         flex-direction: column;
     }
+
     /* feature responsive  */
     .feature-card.best-price-guarantee {
         flex: 1;
         margin: 20px auto;
         width: 100%;
     }
-    .destination-item{
+
+    .destination-item {
         background-size: cover;
     }
+
     .feature-card {
         margin: 20px auto;
         padding: 40px;
@@ -800,13 +822,15 @@ section.tore-packge-container-section-2 .tore-text-info {
         margin-bottom: 30px;
         padding: 0;
     }
-    #destination-item-maldives{
+
+    #destination-item-maldives {
         margin-bottom: 20px;
     }
+
     section.destination-section-3>div>a>div>h2 {
-    padding: 0;
-    text-align: center;
-}
+        padding: 0;
+        text-align: center;
+    }
 
     p.tore-packge-info-description {
         /* color: var(--description-color); */
@@ -844,6 +868,7 @@ section.tore-packge-container-section-2 .tore-text-info {
     img.tore-image {
         width: 240%;
     }
+
     .tore-packge-section {
         padding: 0 83px 0 0px;
     }
@@ -860,7 +885,8 @@ section.tore-packge-container-section-2 .tore-text-info {
         background-position: center;
         border-radius: 20px;
     }
-    ul.tore-infor-unorder-list li:first-child{
+
+    ul.tore-infor-unorder-list li:first-child {
         flex: 0 0 100%;
     }
 }
