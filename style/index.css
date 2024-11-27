@@ -284,45 +284,42 @@ h2.destination-text {
 
 section.destination-section-1 {
     display: flex;
-    /* grid-template-columns: 50% 50%; */
-    /* grid-template-rows: repeat(1,2fr); */
-    /* margin: 0 auto; */
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
     cursor: pointer;
-    /* margin-left: auto; */
-    /* margin-right: 20px; */
-    /* justify-content: center; */
+    max-width: 1300px;
+    margin: 20px auto;
 }
 section.destination-section-1>div>a>div>h2 {
-    /* position: relative; */
-    /* width: 100%; */
-    /* right: auto; */
     color: var(--img-text);
     font-weight: 700;
     font-size: 32px;
-    /* display: flex; */
-    /* margin: 0 auto; */
-    /* text-align: center; */
-    padding: 159px 265px;
+    padding: 150px 255px;
 }
-/* section.destination-section-1>div>a>div {
-    padding: 150px;
-    width: 100%;
-} */
 
 section.destination-section-2 {
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
     display: flex;
-    justify-self: center;
-    margin: 30px;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 20px;
 }
+
+#destination-item-srilanka{
+    background-image: url('../image/srilanka.png');
+}
+#destination-item-north-america{
+    background-image: url('../image/north-america.png');
+}
+#destination-item-kashmir{
+    background-image: url('../image/kashmir.png');
+}
+
 
 .destination-item {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     border-radius: 15px;
 }
 
@@ -343,41 +340,33 @@ section.destination-section-2 {
     color: var(--header-color);
 }
 
-/* div#destination-item-north-america {
-    position: relative;
-    top: -20px;
-} */
-section.destination-section-2>div>a>div>img {
-    width: 100%;
-    max-width: 100%;
-}
-
 section.destination-section-2>div>a>div>h2 {
-    position: relative;
-    top: 170px;
-    left: 0px;
+    padding: 130px 133px;
     width: 100%;
-    /* right: auto; */
-    color: var(--img-text);
-    font-weight: 700;
-    font-size: 32px;
-    /* display: flex; */
-    margin: 0 auto;
-    text-align: center;
 
 }
-
-/* div#destination-item-kashmir {
-    margin-left: -105px;
-} */
-section.destination-section-2>div {
-    margin-left: 55px;
+div#destination-item-north-america>a>div>h2 {
+    width: 230px;
 }
 
 section.destination-section-3 {
     display: flex;
-    justify-content: center;
-    gap: 120px;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+div#destination-item-bangladesh{
+    background-image: url('../image/bangladesh.png');
+}
+div#destination-item-bandarban {
+    background-image: url('../image/bandarban.png');
+    flex: 0 0 60%;
+}
+section.destination-section-3>div>a>div>h2 {
+    padding: 140px 170px;
+    text-align: center;
 }
 
 /* feature style sheet  */
@@ -424,7 +413,6 @@ p.feature-description {
 }
 
 /* tour package style  */
-.tore-packge-section {}
 
 .tore-image-container {
     text-align: center;
@@ -458,7 +446,6 @@ ul.tore-infor-unorder-list {
     justify-content: space-between;
     margin-bottom: 20px;
     padding: 0 80px 0px 0px;
-    /* margin-left: -30px; */
 }
 
 p.tore-packge-info-description {
@@ -521,6 +508,27 @@ section.tore-packge-container-section-2 .tore-text-info {
 }
 
 /* package section style end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -683,23 +691,29 @@ section.tore-packge-container-section-2 .tore-text-info {
         gap: 0;
         cursor: pointer;
     }
-
+    section.destination-section-1>div>a>div>h2 {
+        color: var(--img-text);
+        font-weight: 700;
+        font-size: 32px;
+        padding: 0;
+    }
+    .destination-card {
+        padding: 85px 105px;
+    }
+    section.destination-section-2>div>a>div {
+        padding: 80px 60px;
+    }
     img.indonesia-img,
     img.maldives-img,
     .indonesia-img {
         width: 100%;
-    }
+    }section.destination-section-1
 
     h2.destination-text {
-        position: relative;
-        top: 140px;
-        /* left: 77px; */
-        /* right: auto; */
         color: var(--img-text);
         font-weight: 700;
         font-size: 30px;
         margin: 0 auto;
-        /* width: 0px; */
         text-align: center;
     }
 
@@ -713,19 +727,14 @@ section.tore-packge-container-section-2 .tore-text-info {
     section.destination-section-2>div {
         margin: 0;
     }
-/* 
-    .destination-img {
-        max-width: 105%;
-        height: auto;
-        width: 115%;
-    } */
 
     div#destination-item-north-america>a>div>h2 {
-        top: 140px;
+        /* top: 140px; */text-align: center;
     }
-
-    div#destination-item-srilanka>a>div>h2 {
-        top: 170px;
+    section.destination-section-2>div>a>div>h2 {
+        padding: 0;
+        width: 100%;
+        text-align: center;
     }
 
     section.destination-section-2>div>a>div>img {
@@ -736,29 +745,16 @@ section.tore-packge-container-section-2 .tore-text-info {
     section.destination-section-3>div>a>div>img {
         width: 100%;
     }
-
-    div#destination-item-bandarban>a>div>h2 {
-        top: 105px;
-        right: auto;
-        left: auto;
+    section.destination-section-3 div:last-child {
+        background-size: cover;
     }
 
     section.destination-section-3 {
         display: flex;
         justify-content: center;
-        gap: 0;
+        gap: 20px;
         flex-direction: column;
     }
-
-    div#destination-item-bangladesh>a>div>h2 {
-        left: auto;
-        right: auto;
-    }
-
-    div#destination-item-north-america>a>div>img {
-        width: 100%;
-    }
-
     /* feature responsive  */
     .feature-card.best-price-guarantee {
         flex: 1;
@@ -786,9 +782,6 @@ section.tore-packge-container-section-2 .tore-text-info {
     /* package-section - responsive */
     .tore-text-info {
         width: 100%;
-        /* position: relative; */
-        /* top: 0;
-        left: 0; */
         background: rgba(255, 255, 255, 85%);
         padding: 20px;
         border-radius: 10px;
@@ -804,6 +797,10 @@ section.tore-packge-container-section-2 .tore-text-info {
         margin-bottom: 30px;
         padding: 0;
     }
+    section.destination-section-3>div>a>div>h2 {
+    padding: 0;
+    text-align: center;
+}
 
     p.tore-packge-info-description {
         /* color: var(--description-color); */
@@ -861,6 +858,3 @@ section.tore-packge-container-section-2 .tore-text-info {
         flex: 0 0 100%;
     }
 }
-
-
-
