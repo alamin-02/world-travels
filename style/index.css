@@ -259,31 +259,57 @@ img.trues-container-img {
 /* hero-sections style end  */
 /* destination-section style  */
 h2.destination-text {
-    position: relative;
-    top: 192px;
-    left: 25px;
-    width: 147px;
+    /* position: relative; */
+    /* top: 192px;
+    left: 25px; */
+    /* width: 100%; */
     /* right: auto; */
     color: var(--img-text);
     font-weight: 700;
     font-size: 32px;
     /* display: flex; */
-    margin: 0 auto;
-    text-align: center;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* padding: 160px; */
+}
+
+#destination-item-maldives {
+    background-image: url('../image/maldives.png');
+
+}
+#destination-item-indonesia{
+    background-image: url('../image/indonesia.png');
+
 }
 
 section.destination-section-1 {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    /* grid-template-columns: 50% 50%; */
     /* grid-template-rows: repeat(1,2fr); */
     /* margin: 0 auto; */
     justify-content: space-between;
     gap: 20px;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: 20px;
-    justify-content: center;
+    /* margin-left: auto; */
+    /* margin-right: 20px; */
+    /* justify-content: center; */
 }
+section.destination-section-1>div>a>div>h2 {
+    /* position: relative; */
+    /* width: 100%; */
+    /* right: auto; */
+    color: var(--img-text);
+    font-weight: 700;
+    font-size: 32px;
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    padding: 159px 265px;
+}
+/* section.destination-section-1>div>a>div {
+    padding: 150px;
+    width: 100%;
+} */
 
 section.destination-section-2 {
     /* display: grid;
@@ -294,9 +320,10 @@ section.destination-section-2 {
 }
 
 .destination-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
 }
 
 /* img.indonesia-img , img.maldives-img, .indonesia-img{ */
@@ -686,12 +713,12 @@ section.tore-packge-container-section-2 .tore-text-info {
     section.destination-section-2>div {
         margin: 0;
     }
-
+/* 
     .destination-img {
         max-width: 105%;
         height: auto;
         width: 115%;
-    }
+    } */
 
     div#destination-item-north-america>a>div>h2 {
         top: 140px;
@@ -834,3 +861,6 @@ section.tore-packge-container-section-2 .tore-text-info {
         flex: 0 0 100%;
     }
 }
+
+
+
