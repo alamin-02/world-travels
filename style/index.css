@@ -299,6 +299,10 @@ section.destination-section-1>div>a>div>h2 {
     /* padding: 150px 255px; */
 }
 
+section.destination-section-1>div>a>div {
+    padding: 140px 254px;
+}
+
 section.destination-section-2 {
     display: flex;
     justify-content: space-between;
@@ -745,6 +749,10 @@ h2.promo-text-container-title.hero-section-header {
         padding: 0;
     }
 
+    section.destination-section-1>div>a>div {
+        padding: 85px 0;
+    }
+
     .destination-card {
         padding: 84px 120px;
     }
@@ -954,6 +962,7 @@ h2.promo-text-container-title.hero-section-header {
     ul.promo-text-container-ul>li {
         font-weight: normal;
     }
+
     p.promo-text-container-description {
         margin: 20px 0;
         font-size: 17px;
