@@ -296,7 +296,7 @@ section.destination-section-1>div>a>div>h2 {
     color: var(--img-text);
     font-weight: 700;
     font-size: 32px;
-    padding: 150px 255px;
+    /* padding: 150px 255px; */
 }
 
 section.destination-section-2 {
@@ -558,7 +558,7 @@ section.tore-packge-container-section-2 .tore-text-info {
     body {
         margin: 0 auto;
         /* max-width: 300px; */
-        padding: 0 15px;
+        padding: 0 2%;
         margin: 0 auto;
     }
 
@@ -694,10 +694,10 @@ section.tore-packge-container-section-2 .tore-text-info {
     /* our pupilar responsive -----   ----  and hero section responsive end */
 
     section.destination-section-1 {
-        display: grid;
-        grid-template-columns: none;
+        display: flex;
         gap: 0;
         cursor: pointer;
+        flex-direction: column;
     }
 
     section.destination-section-1>div>a>div>h2 {
@@ -708,7 +708,7 @@ section.tore-packge-container-section-2 .tore-text-info {
     }
 
     .destination-card {
-        padding: 96px 130px;
+        padding: 84px 120px;
     }
 
     section.destination-section-2>div>a>div {
@@ -737,7 +737,7 @@ section.tore-packge-container-section-2 .tore-text-info {
     }
 
     section#section {
-        max-width: 394px;
+        /* max-width: 394px; */
         margin: 0 auto;
     }
 
@@ -756,10 +756,10 @@ section.tore-packge-container-section-2 .tore-text-info {
         text-align: center;
     }
 
-    section.destination-section-2>div>a>div>img {
+    /* section.destination-section-2>div>a>div>img {
         width: 105%;
         max-width: 105%;
-    }
+    } */
 
     section.destination-section-3>div>a>div>img {
         width: 100%;
