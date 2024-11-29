@@ -31,8 +31,13 @@ body {
     /* width: 230px; */
     background-color: var(--primary-color);
     color: var(--img-text);
+    cursor: pointer;
+    translate: transform 0.5s ease;
 }
 
+.primary-btn:active {
+    transform: scale(0.98);
+}
 
 
 
@@ -42,6 +47,10 @@ body {
 
 /* shared style  end  */
 /* header style  */
+header#home {
+    margin-bottom: 150px;
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -79,6 +88,10 @@ span.logo-travel-text {
 
 
 /* nav style  */
+.nav-icon-container {
+    display: none;
+}
+
 ul.nav-container-li {
     list-style: none;
     display: flex;
@@ -102,7 +115,7 @@ ul.nav-container-li>li>a:hover {
 
 /* header style  */
 .header-container-heading {
-    background-image: url('../image/header-background.png');
+    background-image: linear-gradient(181deg, #08194b 0%, transparent), url(../image/header-background.png);
     background-repeat: no-repeat;
     top: auto;
     width: 100%;
@@ -162,20 +175,19 @@ p.header-description {
     /* background: white; */
     width: 1060px;
     border-radius: 10px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: contrast(0.7);
 }
 
 .header-input-felt:hover {
-    backdrop-filter: blur(10px);
-
+    backdrop-filter: contrast(0.4);
 }
 
 select#when-select-option {
     cursor: pointer;
     background-image: url('../image/icon/aro-icon.png');
     background-repeat: no-repeat;
-    background-position: 165px;
-    background-size: 40px;
+    background-position: 178px;
+    background-size: 32px;
     /* width: 100%; */
     appearance: none;
 }
@@ -188,4 +200,772 @@ svg.button-search-icon {
 
 .header-input-parent>button {
     width: 230px;
+}
+
+/* header style end */
+/* our popular tours style */
+.our-popular-tours {
+    /* margin-top: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trues-container {
+    width: 620px;
+}
+
+h2.our-popular-tours,
+h2.hero-section-header {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+p.our-popular-tours-description,
+p.hero-sections-description {
+    color: var(--description-color);
+    line-height: 24px;
+    font-weight: 300;
+}
+
+ul.our-popular-tours-feature {
+    width: 480px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+ul.our-popular-tours-feature>li {
+    margin: 20px;
+    color: var(--description-color);
+}
+
+button.primary-btn.our-popular-tours-button {
+    margin-top: 35px;
+}
+
+img.trues-container-img {
+    width: 100%;
+}
+
+/* our popular tours style end */
+/* hero section style  */
+.hero-sections {
+    text-align: center;
+    width: 600px;
+    margin: 140px auto;
+}
+
+/* hero-sections style end  */
+/* destination-section style  */
+h2.destination-text {
+    /* position: relative; */
+    /* top: 192px;
+    left: 25px; */
+    /* width: 100%; */
+    /* right: auto; */
+    color: var(--img-text);
+    font-weight: 700;
+    font-size: 32px;
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* padding: 160px; */
+}
+
+#destination-item-maldives {
+    background-image: url('../image/maldives.png');
+
+}
+
+#destination-item-indonesia {
+    background-image: url('../image/indonesia.png');
+
+}
+
+section.destination-section-1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    cursor: pointer;
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+section.destination-section-1>div>a>div>h2 {
+    color: var(--img-text);
+    font-weight: 700;
+    font-size: 32px;
+    /* padding: 150px 255px; */
+}
+
+section.destination-section-1>div>a>div {
+    padding: 140px 254px;
+}
+
+section.destination-section-2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+#destination-item-srilanka {
+    background-image: url('../image/srilanka.png');
+}
+
+#destination-item-north-america {
+    background-image: url('../image/north-america.png');
+}
+
+#destination-item-kashmir {
+    background-image: url('../image/kashmir.png');
+}
+
+
+.destination-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+}
+
+/* img.indonesia-img , img.maldives-img, .indonesia-img{ */
+.destination-img {
+
+    max-width: 115%;
+    height: auto;
+    width: 115%;
+}
+
+.destination-item>a {
+    text-decoration: none;
+}
+
+.destination-item>a:hover {
+    text-decoration: underline 3px;
+    color: var(--header-color);
+}
+
+section.destination-section-2>div>a>div>h2 {
+    padding: 130px 133px;
+    width: 100%;
+
+}
+
+div#destination-item-north-america>a>div>h2 {
+    width: 230px;
+}
+
+section.destination-section-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+div#destination-item-bangladesh {
+    background-image: url('../image/bangladesh.png');
+}
+
+div#destination-item-bandarban {
+    background-image: url('../image/bandarban.png');
+    flex: 0 0 60%;
+}
+
+section.destination-section-3>div>a>div>h2 {
+    padding: 140px 170px;
+    text-align: center;
+}
+
+/* feature style sheet  */
+section.feature-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    /* margin-bottom: 100px; */
+}
+
+.feature-card {
+    margin: 40px;
+    padding: 40px;
+    width: 500px;
+    border: solid 1px #ff8b8b;
+    border-radius: 20px;
+    background-color: rgba(233, 68, 68, 5%);
+
+}
+
+.feature-card:hover {
+    margin: 40px;
+    padding: 40px;
+    width: 500px;
+    background-color: rgba(29, 206, 246, 5%);
+    border: solid 1px #29CEF6;
+    border-radius: 20px;
+}
+
+img.feature-img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+p.feature-description {
+    color: var(--description-color);
+    margin: 20px 0px 20px 0px;
+}
+
+.feature-card.best-price-guarantee {
+    flex: 0 0 35%;
+    margin: 0 auto;
+}
+
+/* tour package style  */
+
+.tore-image-container {
+    text-align: center;
+}
+
+img.tore-image {
+    width: 100%;
+}
+
+ul.tore-infor-unorder-list {
+    list-style: none;
+}
+
+ul.tore-infor-unorder-list>li>img {
+    width: 20px;
+}
+
+span.tore-infor-unorder-list-description {
+    color: var(--description-color);
+}
+
+ul.tore-infor-unorder-list li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+ul.tore-infor-unorder-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 80px 0px 0px;
+}
+
+p.tore-packge-info-description {
+    color: var(--description-color);
+    margin-bottom: 20px;
+}
+
+h2.tore-packge-info-title {
+    margin-bottom: 20px;
+}
+
+span.tore-packge-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.tore-text-info {
+    width: 500px;
+    /* position: relative; */
+    /* top: 0px;
+    left: 50%; */
+    background: rgba(255, 255, 255, 85%);
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: auto;
+}
+
+button.primary-btn.tore-package-button {
+    margin-top: 20px;
+}
+
+section.tore-packge-container-section-1,
+section.tore-packge-container-section-2,
+section.tore-packge-container-section-3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 170px;
+}
+
+
+section.tore-packge-container-section-1,
+section.tore-packge-container-section-3 {
+    background-image: url('../image/satorini.png');
+
+}
+
+section.tore-packge-container-section-2 {
+    background-image: url('../image/satorini-1.png');
+}
+
+section.tore-packge-container-section-2 .tore-text-info {
+    /* left: 0%; */
+    margin: 0;
+}
+
+.see-all-package-button {
+    text-align: center;
+}
+
+.feature-section-ture-card {
+    margin-bottom: 30px;
+}
+
+/* package section style end */
+/* promo-section style  */
+section.promo-section.video-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.promo-text-container,
+.promo-video-container {
+    width: 45%;
+}
+
+.promo-video-container>video {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+}
+
+p.promo-text-container-description {
+    color: var(--description-color);
+    margin: 20px 0;
+}
+
+ul.promo-text-container-ul {
+    margin: 20px 20px;
+}
+
+ul.promo-text-container-ul>li {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+h2.promo-text-container-title.hero-section-header {
+    font-size: 3.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 auto;
+        /* max-width: 300px; */
+        padding: 0 3%;
+        margin: 0 auto;
+    }
+
+    /* header style responsive  */
+    header#home {
+        margin-bottom: 0px;
+    }
+
+    .header-container {
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+
+    .logo-container>a {
+        gap: 5px;
+    }
+
+    h1.logo-text {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    img.logo-img {
+        width: 45px;
+    }
+
+    nav.nav-container {
+        display: none;
+    }
+
+    .nav-icon-container {
+        display: block;
+    }
+
+    .header-titel-container {
+        text-align: center;
+        width: 280px;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 30px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .header-container-heading {
+
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 10px;
+        /* background-size: 500%; */
+    }
+
+    p.header-description {
+        color: var(--img-text);
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    h1.header-title {
+        color: var(--img-text);
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .header-input {
+        padding: 20px 30px;
+        min-width: 100%;
+        border-radius: 5px;
+        border: none;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .header-input-felt {
+        display: flex;
+        margin: 0 auto;
+        gap: 0;
+        padding: 0;
+        width: 84%;
+        border-radius: 10px;
+        backdrop-filter: contrast(0.7);
+        flex-direction: column;
+        padding: 30px 0 10px 0;
+    }
+
+    .header-container-input {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .header-input-parent {
+        width: 230px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    /* header responsive end */
+    /* main responsive */
+    /* our pupilar responsive -----   ----  and hero section responsive  */
+    .our-popular-tours {
+        /* margin-top: 100px; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trues-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    h2.our-popular-tours,
+    h2.hero-section-header {
+        font-size: 24px;
+
+    }
+
+    ul.our-popular-tours-feature,
+    p.hero-sections-description {
+        width: 100%;
+        line-height: 21px;
+        /* font-weight: 350; */
+    }
+
+    .hero-sections {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    /* our pupilar responsive -----   ----  and hero section responsive end */
+
+    section.destination-section-1 {
+        display: flex;
+        gap: 0;
+        cursor: pointer;
+        flex-direction: column;
+    }
+
+    section.destination-section-1>div>a>div>h2 {
+        color: var(--img-text);
+        font-weight: 700;
+        font-size: 32px;
+        padding: 0;
+    }
+
+    section.destination-section-1>div>a>div {
+        padding: 85px 0;
+    }
+
+    .destination-card {
+        padding: 84px 120px;
+    }
+
+    section.destination-section-2>div>a>div {
+        padding: 90px 85px;
+    }
+
+    img.indonesia-img,
+    img.maldives-img,
+    .indonesia-img {
+        width: 100%;
+    }
+
+    section.destination-section-1 h2.destination-text {
+        color: var(--img-text);
+        font-weight: 700;
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section.destination-section-2 {
+        margin: 0 auto;
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+    }
+
+    section#section {
+        /* max-width: 394px; */
+        margin: 0 auto;
+    }
+
+    section.destination-section-2>div {
+        margin: 0;
+    }
+
+    div#destination-item-north-america>a>div>h2 {
+        /* top: 140px; */
+        text-align: center;
+    }
+
+    section.destination-section-2>div>a>div>h2 {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* section.destination-section-2>div>a>div>img {
+        width: 105%;
+        max-width: 105%;
+    } */
+
+    section.destination-section-3>div>a>div>img {
+        width: 100%;
+    }
+
+    section.destination-section-3 div:last-child {
+        background-size: cover;
+    }
+
+    section.destination-section-3 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    /* feature responsive  */
+    .feature-card.best-price-guarantee {
+        flex: 1;
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .destination-item {
+        background-size: cover;
+    }
+
+    .feature-card {
+        margin: 20px auto;
+        padding: 40px;
+        width: 500px;
+        border: solid 1px #ff8b8b;
+        border-radius: 20px;
+        background-color: rgba(233, 68, 68, 5%);
+        /* gap: 20px; */
+    }
+
+    .feature-card:hover {
+        margin: 20px auto;
+        width: 100%;
+        background-color: rgba(29, 206, 246, 5%);
+        border-radius: 20px;
+    }
+
+    /* package-section - responsive */
+    .tore-text-info {
+        width: 100%;
+        background: rgba(255, 255, 255, 85%);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    section.tore-packge-container-section-2 .tore-text-info {
+        left: 0;
+    }
+
+    section.tore-packge-container-section-1,
+    section.tore-packge-container-section-2,
+    section.tore-packge-container-section-3 {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    #destination-item-maldives {
+        margin-bottom: 20px;
+    }
+
+    section.destination-section-3>div>a>div>h2 {
+        padding: 0;
+        text-align: center;
+    }
+
+    p.tore-packge-info-description {
+        /* color: var(--description-color); */
+        margin-bottom: 10px;
+        line-height: 24px;
+    }
+
+    h2.tore-packge-info-title {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    ul.tore-infor-unorder-list {
+        padding: 0;
+        justify-content: normal;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    span.tore-packge-price {
+        font-size: 20px;
+    }
+
+    span.tore-infor-unorder-list-description,
+    p.tore-packge-info-description {
+        /* color: var(--description-color); */
+        font-size: 14px;
+    }
+
+    button.primary-btn.tore-package-button {
+        margin-top: 10px;
+    }
+
+    img.tore-image {
+        width: 240%;
+    }
+
+    .tore-packge-section {
+        padding: 0 83px 0 0px;
+    }
+
+    section.tore-packge-container-section-1,
+    section.tore-packge-container-section-2,
+    section.tore-packge-container-section-3 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding: 190px 60px 20px 25px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    ul.tore-infor-unorder-list li:first-child {
+        flex: 0 0 100%;
+    }
+
+    /* promo-section style  */
+    section.promo-section.video-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .promo-text-container,
+    .promo-video-container {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    h2.promo-text-container-title.hero-section-header {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    ul.promo-text-container-ul {
+        margin: 0px 0px 0px 5%;
+        line-height: 23px;
+    }
+
+    ul.promo-text-container-ul>li {
+        font-weight: normal;
+    }
+
+    p.promo-text-container-description {
+        margin: 20px 0;
+        font-size: 17px;
+        line-height: 23px;
+    }
 }
