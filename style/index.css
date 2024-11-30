@@ -686,6 +686,12 @@ p.last-description {
     .feature-card.best-price-guarantee {
         flex: 0 0 40%;
     }
+    h1.header-title {
+        font-size: 45px;
+    }
+    p.header-description {
+        font-size: 13px;
+    }
 }
 
 
