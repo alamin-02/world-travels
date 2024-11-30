@@ -10,9 +10,14 @@ html {
 }
 
 body {
-    max-width: 1400px;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+header,
+main {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* shared style   */
@@ -574,7 +579,8 @@ p.content-description {
     color: gray;
     display: none;
 }
-.notification:target{
+
+.notification:target {
     display: block;
 }
 
@@ -612,11 +618,50 @@ button#subscribe-btn {
 }
 
 /* form section style end */
+/* footer style  */
+footer {
+    background: rgb(19, 19, 24, 5%);
+    margin-top: 50px;
+}
 
+.footer-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    padding: 70px;
+}
 
+ul.footer-icon-container-ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid  2px rgb(19, 19, 24, 20%);
+    padding-bottom: 50px;
+}
 
+img.footer-icon {
+    width: 30px;
+}
 
+img.footer-icon.facebook-icon-in-footer {
+    width: 20px;
+}
 
+.logo-container.footer-logo-container {
+    width: 300px;
+    margin: 20px auto;
+}
+
+p.footer-description {
+    margin: 20px;
+    color: var(--description-color);
+}
+p.last-description {
+    margin-top: 30px;
+    color: var(--description-color);
+}
 
 
 
@@ -648,9 +693,11 @@ button#subscribe-btn {
 
     body {
         margin: 0 auto;
-        padding: 0 3%;
-        margin: 0 auto;
         box-sizing: border-box;
+    }
+    header, main{
+        padding: 0 3%;
+
     }
 
     /* header style responsive  */
@@ -1049,5 +1096,17 @@ button#subscribe-btn {
 
     .form-image-container-text>h3 {
         font-size: 18px;
+    }
+    /* footer style responsive  */
+    footer {
+        margin-top:0;
+    }
+    .footer-container {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .logo-container.footer-logo-container {
+        width: 50%;
+        margin: 20px auto;
     }
 }
