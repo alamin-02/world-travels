@@ -366,14 +366,14 @@ section.destination-section-3>div>a>div>h2 {
 section.feature-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
 }
 
 .feature-card {
     margin: 40px;
     padding: 40px;
-    width: 500px;
+    width: 42%;
     border: solid 1px #ff8b8b;
     border-radius: 20px;
     background-color: rgba(233, 68, 68, 5%);
@@ -400,8 +400,9 @@ p.feature-description {
 }
 
 .feature-card.best-price-guarantee {
-    flex: 0 0 35%;
-    margin: 0 auto;
+    flex: 0 0 42%;
+    margin:30px auto;
+
 }
 
 /* tour package style  */
