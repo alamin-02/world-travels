@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", serif;
+    box-sizing: border-box;
 }
 
 html {
@@ -336,6 +337,7 @@ section.destination-section-2>div>a>div>h2 {
 
 div#destination-item-north-america>a>div>h2 {
     width: 230px;
+    box-sizing: unset;
 }
 
 section.destination-section-3 {
@@ -664,6 +666,7 @@ p.last-description {
 }
 
 /* footer style end */
+
 
 
 
