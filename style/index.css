@@ -163,7 +163,7 @@ p.header-description {
 
 .header-input-felt {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 0 auto;
     justify-content: center;
     gap: 30px;
@@ -403,7 +403,7 @@ p.feature-description {
 
 .feature-card.best-price-guarantee {
     flex: 0 0 44%;
-    margin:30px auto;
+    margin: 30px auto;
 
 }
 
@@ -679,95 +679,149 @@ p.last-description {
 
 
 
-
-@media (min-width: 1124px) and (max-width: 1440px) {
+@media (min-width: 1124px) and (max-width: 1400px) {
     body {
         margin: 0 auto;
         box-sizing: border-box;
         max-width: 1124px;
     }
-    *{
+
+    * {
         box-sizing: border-box;
     }
-    header, main {
+
+    header,
+    main {
         padding: 0px 50px;
     }
+
     /* header responsive  */
-    .header-container-input{
+    .header-container-input {
+        padding-top: 0px !important;
         padding: 50px;
     }
-    .header-input-felt{
-        flex-wrap: wrap;
-        width: 100%;
+
+    .header-titel-container {
+        padding: 100px 100px 30px 100px;
     }
+
+    .header-input-felt {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 30px;
+        padding: 50px 30px;
+        width: 100%;
+
+    }
+    .header-input-parent>button {
+        width: 230px;
+        flex: 0 0 50%;
+    }
+
     section.feature-section {
         justify-content: space-evenly;
     }
+
     .feature-card.best-price-guarantee {
         margin-top: 30px;
     }
+
     section.feature-section {
         justify-content: center;
         margin: 0 auto;
     }
+
     .feature-card.best-price-guarantee {
         flex: 0 0 42%;
     }
-    .feature-card{
+
+    .feature-card {
         width: 42%;
     }
+
     h1.header-title {
         font-size: 45px;
     }
+
     p.header-description {
         font-size: 13px;
     }
-    
+
     /* destination-card section */
     section.destination-section-1>div>a>div {
-        padding: 140px 180px;
+        padding: 110px 180px;
     }
 
     section.destination-section-3>div>a>div>h2 {
         padding: 100px 110px;
     }
+
     section.destination-section-2>div>a>div>h2 {
         padding: 87px 85px;
     }
+
     /* feature section */
 
-    .feature-card{
+    .feature-card {
         width: 42%;
     }
+
     /* contact - form  */
-    .contect-form-imge-container{
+    .contect-form-imge-container {
         width: 100%;
     }
+
     .contect-form-imge-container img {
         width: 100%;
     }
+
     .content-form-container {
         padding: 20px;
         width: 48%;
     }
+
     h3.contect-header {
         font-size: 32px;
         margin: 10px 0;
     }
+
     .content-form-container input {
         width: 100%;
     }
+
     /* tore section */
     .trues-container {
         width: 49%;
     }
 
+    /* plan section  */
+    section.tore-packge-container-section-1,
+    section.tore-packge-container-section-2,
+    section.tore-packge-container-section-3 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding: 100px;
+    }
+    /* promo section  */
+    .promo-text-container, .promo-video-container {
+        width: 100%;
+    }
+    section.promo-section.video-section {
+        margin-bottom: 50px;
+    }
+    h2.promo-text-container-title.hero-section-header {
+        font-size: 2.3rem;
+        margin-bottom: 10px;
+    }
 
 }
 
 
 /* mini laptop responsive  */
-@media (min-width: 992px) and (max-width: 1123px){
+@media (min-width: 992px) and (max-width: 1123px) {
     section#section {
         display: none;
     }
