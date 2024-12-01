@@ -383,7 +383,7 @@ section.feature-section {
 .feature-card:hover {
     margin: 40px;
     padding: 40px;
-    width: 500px;
+    /* width: 500px; */
     background-color: rgba(29, 206, 246, 5%);
     border: solid 1px #29CEF6;
     border-radius: 20px;
