@@ -69,10 +69,6 @@ header#home {
     color: var(--header-color);
 }
 
-.logo-container>a:hover {
-    text-decoration: underline 2px solid #FF5400;
-}
-
 h1.logo-text {
     font-size: 36px;
     font-weight: 700;
@@ -723,6 +719,7 @@ p.last-description {
         width: 100%;
 
     }
+
     .header-input-parent>button {
         width: 230px;
         flex: 0 0 50%;
@@ -932,25 +929,32 @@ p.last-description {
         background-size: 100%;
         padding: 100px;
     }
+
     /* promo section  */
-    .promo-text-container, .promo-video-container {
+    .promo-text-container,
+    .promo-video-container {
         width: 100%;
     }
+
     section.promo-section.video-section {
         margin-bottom: 50px;
     }
+
     h2.promo-text-container-title.hero-section-header {
         font-size: 2.3rem;
         margin-bottom: 10px;
     }
+
     /* hero section style  */
     .hero-sections {
         margin: 70px auto;
     }
+
     /* footer responsive  */
-    footer{
+    footer {
         margin: 0;
     }
+
     .footer-container {
         padding: 20px;
     }
@@ -992,13 +996,16 @@ p.last-description {
     main {
         padding: 0px 50px;
     }
+
     /* header responsive  */
     .header-container {
         margin: 30px auto;
     }
+
     ul.nav-container-li {
         gap: 35px;
     }
+
     .header-container-input {
         padding-top: 0px !important;
         padding: 50px;
@@ -1018,6 +1025,7 @@ p.last-description {
         width: 100%;
 
     }
+
     .header-input-parent>button {
         width: 230px;
         flex: 0 0 50%;
@@ -1083,11 +1091,13 @@ p.last-description {
         margin: 20px;
         padding: 20px;
     }
-    .feature-card:hover{
+
+    .feature-card:hover {
         width: 40%;
         margin: 20px;
         padding: 20px;
     }
+
     /* contact - form  */
     .contect-form-imge-container {
         width: 100%;
@@ -1125,25 +1135,32 @@ p.last-description {
         background-size: 100%;
         padding: 40px;
     }
+
     /* promo section  */
-    .promo-text-container, .promo-video-container {
+    .promo-text-container,
+    .promo-video-container {
         width: 100%;
     }
+
     section.promo-section.video-section {
         margin-bottom: 50px;
     }
+
     h2.promo-text-container-title.hero-section-header {
         font-size: 2.3rem;
         margin-bottom: 10px;
     }
+
     /* hero section style  */
     .hero-sections {
         margin: 40px auto;
     }
+
     /* footer responsive  */
-    footer{
+    footer {
         margin: 0;
     }
+
     .footer-container {
         padding: 20px;
     }
@@ -1430,7 +1447,7 @@ p.last-description {
         border-radius: 20px;
         background-color: rgba(233, 68, 68, 5%);
     }
-    
+
     .feature-card:hover {
         margin: 20px auto;
         width: 100%;
@@ -1684,7 +1701,6 @@ p.last-description {
 
 
 
-
 /* 
 h2.destination-text {
     color: var(--img-text);
@@ -1804,3 +1820,4 @@ section.destination-section-3>div>a>div>h2 {
     text-decoration: underline 3px;
     color: var(--header-color);
 } */
+
