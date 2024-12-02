@@ -1458,8 +1458,10 @@ p.last-description {
     }
 
     .logo-container.footer-logo-container {
-        width: 50%;
+        width: 100%;
         margin: 20px auto;
+        display: flex;
+        justify-content: center;
     }
 
     ul.footer-icon-container-ul {
