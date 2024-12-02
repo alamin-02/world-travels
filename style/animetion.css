@@ -1,0 +1,80 @@
+
+/* maldive style  */
+.destination-item>a>div>h2:hover {
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+p.distination-description {
+    text-align: center;
+    width: 80%;
+    color: transparent;
+    margin: 0 auto;
+    transition: all 1s ease;
+}
+
+#destination-item-maldives:hover p.distination-description{
+    display: block;
+    text-align: center;
+    text-decoration: unset !important;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    transition: all 1s ease;
+}
+
+#destination-item-maldives:hover h2.destination-text {
+    margin: 13%;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    transition: all 1s ease;
+} 
+#destination-item-maldives:hover .destination-item>a>div>h2{
+    top: 1000px;
+    transition: all 1s ease;
+}
+#destination-item-maldives h2.destination-text {
+    margin: 23%;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+} 
+/* maldive style end */
+/* indonesia style  */
+
+.destination-item>a>div>h2:hover {
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+p.distination-description {
+    text-align: center;
+    width: 80%;
+    color: transparent;
+    transition: all 1s ease;
+    margin: 0 auto;
+}
+
+div#destination-item-indonesia:hover p.distination-description{
+    display: block;
+    text-align: center;
+    text-decoration: unset !important;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    transition: all 1s ease;
+}
+
+div#destination-item-indonesia:hover h2.destination-text {
+    margin: 13%;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    transition: all 1s ease;
+} 
+div#destination-item-indonesia:hover .destination-item>a>div>h2{
+    top: 1000px;
+    transition: all 1s ease;
+}
+div#destination-item-indonesia h2.destination-text {
+    margin: 23%;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+} 
+/* indonesia code end  */
