@@ -68,11 +68,6 @@ header#home {
     text-decoration: none;
     color: var(--header-color);
 }
-
-.logo-container>a:hover {
-    text-decoration: underline 2px solid #FF5400;
-}
-
 h1.logo-text {
     font-size: 36px;
     font-weight: 700;
@@ -1458,8 +1453,10 @@ p.last-description {
     }
 
     .logo-container.footer-logo-container {
-        width: 50%;
+        width: 100%;
         margin: 20px auto;
+        display: flex;
+        justify-content: center;
     }
 
     ul.footer-icon-container-ul {
